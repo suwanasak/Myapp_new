@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lvparent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtSearch"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:autofillHints=""
+            android:background="#E9EEE9"
+            android:hint="   กรอกรหัสหรือกดสแกน"
+            android:text="1887-443160006"
+            android:maxLength="14"
+            android:textColor="#6F6E64"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnScaner"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#2196F3"
+            android:text="SCAN"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="97dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="3dp"
+            android:background="#3F51B5"
+            android:text="SEARCH"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="97dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="3dp"
+            android:background="#4CAF50"
+            android:text="SAVE"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Backbtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#F92929"
+            android:text="Cancel"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="  ResultAll"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="  id"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtBarcode"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:text="  Barcode"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtC"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:text="ใบปูผ้า : "
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtB"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:text="มัด : "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtBind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtSi"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="สไตส์ : "
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtCo"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="สี : "
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtS"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="ไซส์ : "
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtA"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="จำนวนตัว : "
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtP"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:text="โต๊ะ : "
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/txtPlant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp">
+
+        <Spinner
+            android:id="@+id/sp_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/editTextonline"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="user : "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/editTextname"
+            android:layout_width="131dp"
+            android:layout_height="match_parent"
+            android:text="name"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/editTextid"
+            android:layout_width="66dp"
+            android:layout_height="match_parent"
+            android:text="id"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/editTextuser"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:text="user"
+            android:textSize="18sp" />
+
+    </LinearLayout><![CDATA[
+
+    >
+]]>
+</LinearLayout>

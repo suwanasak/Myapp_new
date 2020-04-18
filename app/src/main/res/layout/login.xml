@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lvparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="USER LOGIN"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Enter your UserID"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/myedittextbg"
+        android:hint="Enter your UserID"
+        android:padding="5dp"
+        android:text="000020" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mybtn"
+        android:onClick="DoLogin"
+        android:text="LOGIN"
+        android:textColor="#EEEAEB"
+        android:textSize="35dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_marginTop="10dp"
+        android:layout_width="243dp"
+        android:layout_height="102dp"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

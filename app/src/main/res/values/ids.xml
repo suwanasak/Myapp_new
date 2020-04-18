@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtid" type="id" />
+    <item name="txtcode" type="id" />
+    <item name="txtbind" type="id" />
+    <item name="txtSearch" type="id" />
+    <item name="txtBind" type="id" />
+    <item name="btnSearch" type="id" />
+    <item name="btnLogin" type="id" />
+    <item name="btnLogout" type="id" />
+    <item name="search" type="id" />
+    <item name="txtColor" type="id" />
+    <item name="txtBarcode" type="id" />
+    <item name="txtId" type="id" />
+    <item name="button5" type="id" />
+    <item name="btnsave" type="id" />
+    <item name="editTextid" type="id" />
+    <item name="editTextname" type="id" />
+    <item name="txteid" type="id" />
+    <item name="txteuser" type="id" />
+    <item name="txtename" type="id" />
+
+</resources>
